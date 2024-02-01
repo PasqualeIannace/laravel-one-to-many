@@ -17,4 +17,9 @@ class Project extends Model
         "language"
 
     ];
+
+    public function type()
+    {
+        return $this->belongsTo(Type::class);
+    }
 }
