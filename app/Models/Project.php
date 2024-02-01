@@ -14,8 +14,7 @@ class Project extends Model
         "description",
         "image",
         "dataCreation",
-        "language"
-
+        "language",
     ];
 
     public function type()
