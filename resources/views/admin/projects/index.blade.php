@@ -8,8 +8,8 @@
     <div class="row">
         @foreach ($projects as $project)
         <div class="col-4">
-            <div class="card mb-3" style="width: 18rem;">
-                <img src="{{ $project->image }}" class="card-img-top " alt="..." style=" height: 23rem;">
+            <div class="card mb-3">
+                <img src="{{ $project->image }}" class="card-img-top " alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><strong>{{ $project->name }} </strong></h5>
                     <p class="card-text">{{ $project->description }}</p>
@@ -17,7 +17,7 @@
                     <p class="card-text"><strong>Language</strong> {{ $project->language }}</p>
                     <span class="d-flex gap-2 ">
                         <a href="{{route('admin.projects.show', $project->id)}}" class="btn btn-primary ">Dettagli</a>
-                        <a href="{{ route('admin.projects.edit', $project->id) }}"class="btn btn-warning ">Modifica</a>
+                        <a href="{{ route('admin.projects.edit', $project->id) }}" class="btn btn-warning ">Modifica</a>
                         <form action="{{ route('admin.projects.destroy', $project->id) }}" method="POST"
                             class="d-inline-block">
                             @csrf

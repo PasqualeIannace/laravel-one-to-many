@@ -23,7 +23,7 @@ return [
         'image' => 'https://placekitten.com/800/601', // Immagine a caso di gattino
         'dataCreation' => '2024-02-03',
         'language' => 'Spagnolo',
-        'type_id' => 3
+        'type_id' => 1
     ],
     [
         'name' => 'App di Viaggio Personalizzata',
@@ -31,7 +31,7 @@ return [
         'image' => 'https://placebear.com/800/601', // Immagine a caso di orso
         'dataCreation' => '2024-02-04',
         'language' => 'Francese',
-        'type_id' => 4
+        'type_id' => 2
     ],
     [
         'name' => 'Piattaforma di Gestione Progetti',
@@ -39,6 +39,6 @@ return [
         'image' => 'https://placekitten.com/800/602', // Immagine a caso di gattino
         'dataCreation' => '2024-02-05',
         'language' => 'Tedesco',
-        'type_id' => 5
+        'type_id' => 3
     ],
 ];
